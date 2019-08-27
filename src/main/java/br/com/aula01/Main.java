@@ -58,7 +58,7 @@ public class Main {
             for (int i = 0; i <= aulas.size(); i++) {
                 System.out.println("aula: " + aulas.get(i));
             }
-        } catch (Exception exception) {
+        } catch (IndexOutOfBoundsException exception) {
             exception.printStackTrace();
         } finally {
             System.out.println(LINHA_SEPARADORA);
